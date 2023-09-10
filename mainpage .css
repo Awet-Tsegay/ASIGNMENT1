@@ -1,12 +1,11 @@
-img{
-    margin: 5px;
-   display: flex;
-}
+
 .menu{
-    
-    align-items: center;
-     display:flex; 
-     justify-content: space-evenly; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 15px;
+    @media screen and (width: 600px) {
+    }
    }
 a{
     color: silver;
