@@ -1,4 +1,9 @@
-
+@media screen and (max-width: 600px) {
+    body {
+      color: yellow;
+    }
+  }
+  
 
 body {
    background-image: url("IMAGES/backround5.jpg");
@@ -8,6 +13,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     font-size: 21px;
+          
        }
 a{
     color: rgb(114, 114, 114);
